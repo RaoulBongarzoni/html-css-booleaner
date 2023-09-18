@@ -2,7 +2,9 @@ html{
     font-family: georgia,'Times New Roman', Times, serif;
 }
 
-
+body{
+    margin: 0px;
+}
 main{
 
     padding-left: 1em;
@@ -114,3 +116,5 @@ footer div h4{
     width: 100%;
     color: white;
 }
+
+
