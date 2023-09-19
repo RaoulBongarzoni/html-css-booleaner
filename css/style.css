@@ -1,30 +1,35 @@
-html{
-    font-family: georgia,'Times New Roman', Times, serif;
-}
+
 
 body{
     margin: 0px;
 }
 main{
-
+    margin-top: 16px;
     padding-left: 1em;
 }
 
 /* banner e logo */
 header{
     background-image: url(../img/pattern.png);
-    background-repeat: repeat;
-    background-size: 30%;
+    height: 100px;
     background-color: dodgerblue;
-    background-position: center top;
-    padding-right: 80%;
+    background-size: 30%;
+    
+    /* background-repeat: repeat;
+    background-position: center top; */
+    /* padding-right: 80%; */
 }
 
 header div img{
-    font-size: 1em;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 0.5em;
+
+
+  /*   font-size: 1em;
     padding-top: 4em;
     padding-right: 5em;
-    padding-left: 0.5em;
+    padding-left: 0.5em; */
 
 }
 
@@ -32,28 +37,32 @@ header div img{
 
 /* titolo e link */
 #titolo h1{
-    font-weight: bolder;
-    margin-bottom: 0%;
+    font-size: 39px;
+    line-height: 42px;
+    margin: 0;
 }
 
-#titolo h5{
+#titolo p{
     margin-block-start: 0%;
     margin-block-end: 0%;
     color: rgba(0, 0, 0, 0.5) ; 
 }
-#titolo h6{
-    margin-block-start: 0%;
-    color: rgba(0, 0, 0, 0.5)
+
+#foto{
+    margin-top: 16px;
+
 }
-a:link{
+
+
+#titolo a{
     color: cornflowerblue;
     text-decoration: none;
 }
-a:visited{
+/* a:visited{
     text-decoration-line: none;
     color: cornflowerblue;
 }
-
+ */
 /* riconoscimenti */
 #extra p{
     margin-block: 0%;
@@ -64,8 +73,7 @@ a:visited{
 
 /* lista */
 ul{
-    text-align: left;
-    padding-left: 1em;
+    padding: 16px;
 }
 
 /* formattazione tabella */
@@ -102,7 +110,25 @@ footer p{
 }
 
 
-.container{
+
+.image{
+    padding: 6px;
+    width: 208px;
+    height: 160px;
+    margin: 16px;
+    background-size: cover;
+    color: white;
+}
+
+
+#graph{
+    background-image: url(../img/graph.jpg);
+
+}
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+/* .container{
     position: relative;
     height: 208px;
     width: 312px;
@@ -117,4 +143,4 @@ footer div h4{
     color: white;
 }
 
-
+ */
